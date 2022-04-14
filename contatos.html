@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alpli Delivery: Formas de contato</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">  
+        <meta name="author" content="Victor Hugo">
+        <meta name="description" content="Confira agora as formas de contato que você pode utilizar para falar conosco, tudo isso e muito mais!">
+        <meta name="keywords" content="ajuda, contato, celular, e-mail, email, local, endereço, rua, cidade, whatsapp, redes sociais, facebook, instagram, twitter, delivery, Alpli, restaurante, restaurante delivery, aplli">
+    </head>
+    <body>
+        <div id="nav_bar">
+            <a href="./index.html"><img src="./imgs/logo.png" alt="Logo da página"></a>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre nós</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./contatos.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">  
+            <div class="main_content">
+                <div class="all_cells">
+                    <div class="contacts">
+                        <h2>Email: <h3>Alpli@contato.me</h3> </h2>
+                        <h2>Whatsapp: <h3>(XX)999-9999</h3> </h2>
+                        <h2>Redes sociais:</h2>
+                        <ul class="social_list">
+                            <div class="social_medias">
+                                <li><a href="http://www.facebook.com"><img src="./imgs/facebook.svg" alt="Logo do facebook"></a></li>
+                                <li><a href="http://www.instagram.com"><img src="./imgs/instagram.svg" alt="Logo do instagram"></a></li>
+                                <li><a href="http://www.twitter.com"><img src="./imgs/twitter.svg" alt="Logo do twitter"></a></li>
+                            </div>
+                        </ul>
+
+                        <h2>Escritório:</h2>
+                        <h4>Localizado na Rua Algusta, número 35000</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.31985525874!2d-46.66115638445378!3d-23.5569531673159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ccf12e5007%3A0x394b02124900517c!2sR.%20Augusta%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1649872056671!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                        <h2>Nos mande uma mensagem: </h2>
+                        <div class="forms">
+                            <div class="mascote">
+                                <img src="./imgs/mascote.png" alt="Taco cartoon">
+                            </div>
+                            
+                            <form class="form_msg">
+                                <div class="contact">   
+                                    <div class="name">
+                                        <input id="nome" type="text" placeholder="Nome completo..." required/>
+                                    </div>
+                                    <div class="e-mail">
+                                        <input id="e-mail" type="text" placeholder="E-mail para contato..." required/>
+                                    </div>
+                                </div>
+                                <textarea cols="30" rows="5" id="mensagem" placeholder="Mensagem..." required></textarea>
+                                
+                                <div class="send">
+                                    <button type="button" onclick="send_msg()">Enviar!</button>
+                                    <p>*Formulário apenas ilustrativo...</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="extra">
+                        <h4>Caso tenha mais alguma dúvida, basta consultar nossa página de <a href="/faq.html">FAQ</a> ou baixe nosso app
+                            e entre em contato com nosso suporte =)
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <div class="footer_1">
+                        <img src="./imgs/background_2.svg" alt="Imagem de fundo de sacolas e alguns produtos">
+                        <h2>Baixe nosso app agora mesmo.</h2>
+                        <h3>Comece sua experiência premium de qualidade.</h3>
+                        <h4>Disponível na sua app store favorita</h4>
+
+                        <div class="playstore_footer">
+                            <p><a href="https://play.google.com/store?hl=pt_BR&gl=US">Play Store</a></p>
+                        </div>
+
+                        <div class="appstore_footer">
+                            <p><a href="https://www.apple.com/br/app-store/">App Store</a></p>
+                        </div>
+                    </div>
+
+                    <div class="footer_2"> 
+                        <img src="./imgs/logo.png" alt="Logo do site" onclick="to_top()">
+
+                        <ul class="social_list">
+                            <div class="img_list">
+                                <li><a href="http://www.facebook.com"><img src="./imgs/facebook.svg" alt="Logo do facebook"></a></li>
+                                <li><a href="http://www.instagram.com"><img src="./imgs/instagram.svg" alt="Logo do instagram"></a></li>
+                                <li><a href="http://www.twitter.com"><img src="./imgs/twitter.svg" alt="Logo do twitter"></a></li>
+                            </div>
+                        </ul>
+                        <a class="copyright">Copyright © 2022 Victor Hugo</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
