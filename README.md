@@ -20,3 +20,9 @@ O projeto é de um site para uma empresa fictícia de delivery, chamada Alpli
 ![image](https://user-images.githubusercontent.com/98846868/163419288-e0fdf270-c368-40e1-bd29-6488e48eaf28.png)
 
 ![image](https://user-images.githubusercontent.com/98846868/163419011-9fa0a390-2a0c-4b54-bbc2-c449ea811212.png)
+
+## Link do site
+
+https://algli-projetorocky.netlify.app/
+
+*Hospedado utilizando netlify*
